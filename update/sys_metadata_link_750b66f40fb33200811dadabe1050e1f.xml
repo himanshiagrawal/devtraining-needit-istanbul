@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>02ca01820a0a0b261cf923fb95f5e1d0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_activity_variable">
+    <wf_activity_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Advanced</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>advanced</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <help/>
+        <hint>Check this checkbox to write a script for determining additional users to request approvals from.</hint>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Advanced</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</model>
+        <model_id/>
+        <model_table/>
+        <name>var__m_35433da80a0a029a0028c639a1e51eb4</name>
+        <next_element/>
+        <order>2000</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>wf_activity_variable</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2008-10-15 23:14:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>02ca01820a0a0b261cf923fb95f5e1d0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Advanced</sys_name>
+        <sys_package display_value="Workflow Runtime Engine" source="com.glideapp.workflow">b0a613ed9422320092c0d40a7bef4676</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>wf_activity_variable_02ca01820a0a0b261cf923fb95f5e1d0</sys_update_name>
+        <sys_updated_by>jim.spencer</sys_updated_by>
+        <sys_updated_on>2014-11-21 23:51:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </wf_activity_variable>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-04 12:20:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>750b66f40fb33200811dadabe1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Advanced</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_metadata_link_750b66f40fb33200811dadabe1050e1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-04 12:20:49</sys_updated_on>
+        <tablename>sys_dictionary</tablename>
+    </sys_metadata_link>
+</record_update>
