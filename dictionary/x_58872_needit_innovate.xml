@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="innovate" max_length="40" name="x_58872_needit_innovate" type="collection">
+        <element attributes="omit_sys_original=true" label="Number" mandatory="true" max_length="20" name="u_currency_1" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="process " label="Idea type" max_length="40" name="u_idea_type" type="string">
+            <choice>
+                <element label="cost saving" sequence="0" value="cost"/>
+                <element label="Process improvment" sequence="1" value="process"/>
+                <element label="Team building" sequence="2" value="Team"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="short description" mandatory="true" max_length="125" name="u_short_description" type="string"/>
+    </element>
+</database>
